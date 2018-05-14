@@ -1,0 +1,15 @@
+https://en.wikipedia.org/wiki/Multi-armed_bandit
+
+https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/SurveyBCB12.pdf
+
+https://zhuanlan.zhihu.com/p/21388070?refer=resyschina
+
+http://x-algo.cn/index.php/2016/12/15/ee-problem-and-bandit-algorithm-for-recommender-systems/
+
+https://blog.csdn.net/xiewenbo/article/details/72886594
+
+http://www.naodongopen.com/903.html
+
+https://github.com/roycoding/slots
+
+https://github.com/lilianweng/multi-armed-bandit
