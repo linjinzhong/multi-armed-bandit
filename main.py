@@ -48,12 +48,19 @@ for n in range(num_exp):
 for r, alg in enumerate(algorithms):
 	alg['regret'] = list(sumRegret[r] / np.float(num_exp))
 
+#color choice
+color = ['k', 'b', 'c', 'g', 'y', 'r']
+
+# Pretty plotting
+sea.set_style('whitegrid')
+sea.set_context('poster')
+
 #plot
 fig = plt.figure(figsize=(12,4))
 regretFig = fig.add_subplot(111)
 regretFig.set_yscale("log")
-for alg in algorithms:
-	regretFig.plot(alg['regret'], label=alg['label'])
+for i, alg in enumerate(algorithms):
+	regretFig.plot(alg['regret'],  color[i], lw = 3, label=alg['label'])
 regretFig.grid(False)
 regretFig.set_xlim(0,10000)
 regretFig.set_ylim(1e-1,1e4)
