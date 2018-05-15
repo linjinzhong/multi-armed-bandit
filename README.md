@@ -9,3 +9,5 @@ I made some change and add some algorithm
 
 result:
 ![cumulative regret](https://github.com/linjinzhong/multi-armed-bandit/blob/master/cumulative_regret_exp100_trial10000_K100.png)
+
+![cumulative regret](https://github.com/linjinzhong/multi-armed-bandit/blob/master/cumulative_regret_exp10_trial10000_K10_v1.png)
